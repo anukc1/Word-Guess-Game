@@ -1,7 +1,52 @@
-.navbar-brand {
+.container {
 
-    color: darkmagenta;
-    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    
+    
+    border-color: aquamarine;
+    height: 100%;
+    width: 100%;
+
+    margin: auto;
+    padding: 0;
+
+    background-image: url("../images/imp.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+body {
+    background-image: url("../images/imp.jpeg");
+    background-size: 25em;
+
+    background-repeat: repeat;
+    
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    color: coral;
+    font-size: 25px;
+    
+}
+
+#turns {
+    margin: 2em;
     padding: 2em;
-   
+
+}
+
+
+.navbar-light .navbar-brand {
+    font-size: 40px;
+}
+    
+#enterme {
+    margin: 5em;
+}
+
+#showme {
+    font-size: 40px;
 }
